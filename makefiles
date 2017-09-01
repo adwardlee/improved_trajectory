@@ -1,0 +1,1 @@
+g++ DenseTrackStab.cpp -L/home/lijun/opencv/build/lib -L/home/lijun/dependency/ffmpeg/lib -L/home/lijun/dependency/cuda8.0/lib64 -pipe -Wall -O3 -ggdb -o release/traj_for_imgs_test  -lopencv_core -lopencv_highgui -lopencv_video -lopencv_imgproc -lopencv_calib3d -lopencv_features2d -lopencv_nonfree -lavformat -lavdevice -lavutil -lavcodec -lswscale
